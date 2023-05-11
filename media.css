@@ -1,0 +1,370 @@
+/* /////////////////////////// */
+
+@media screen and (max-width:1200px) and (min-width:768px) {
+
+    .nav-menu ul a{
+        padding-right: 10px;
+    }
+    .nav-menu ul{
+        width: 100%;
+    }
+    .nav-logo{
+        width: 30%;
+    }
+    
+    .section-3 .contant{
+        flex-direction: column;
+        margin-left: 70px;        
+            }
+            .section-3 .contant .left{
+                width: 85%;
+                text-align: center;
+                
+            }
+            .section-3 .contant .right{
+                width: 90%;
+            }
+   
+    .section-11 .menu ul{
+        width: 90%;
+    }
+    .section-11 .menu li{
+        width: 30%;                   
+     }
+     .section-12 .phtos{
+       flex-wrap: wrap;
+     }
+     .section-12 .div1 {
+        width: 40%;
+     }
+     .section-12 .div2 {
+        width: 40%;
+     }
+     .section-12 .div3{
+        
+        width: 95%;
+        flex-direction: row;
+     }
+     .section-12 .photos .div3 img{
+        width: 90%;
+        height: 100%;
+        
+    }
+    .client .content {  width: 100%;
+        flex-direction: column;
+        margin-left:60px ;
+    }
+    
+    .client-content-left,
+    .client-content-right {
+        width: 80%;
+        margin: 10px;
+    }
+    .final-content{
+        flex-direction: column-reverse;
+        padding-left: 30px;
+        margin: auto;
+    }
+    .final-content .final-left{
+        width: 90%;
+        margin: 30px ;
+        text-align: center;
+    }
+    .final-content .final-right{
+        width: 90%;
+        margin: 0px 50px ;
+    }
+    .final-input input{
+        width: 90%;
+    }
+    footer .cont{
+        
+        flex-direction: column;
+        margin: 20px 5px;
+        text-align: center;
+    }
+    footer .footer-right{
+        width: 50%;
+        margin-top: 30px;
+        text-align: center;
+        justify-content: center;
+    }
+    .footer-left{
+        width: 100%;
+        
+    }
+         
+}
+ @media screen and (max-width:767px) and (min-width:500px) {
+    
+    .section-1 .contant h1{
+       font-size: 2rem;
+        
+    }
+    /* .nav-menu ul{
+        text-align: center;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+    .nav-menu{
+        margin: auto;
+    }
+    .nav-logo{
+       margin-left: 50px;
+    }
+    */
+    .nav-menu{
+        background-color: rgb(15, 15, 24,0.7);
+        display: none;
+    }
+    .nav-menu ul li{
+        padding: 10px 0px;
+        padding-left: 50px;
+    }
+    .section-4{
+        flex-wrap: wrap;
+        
+     }
+     .section-4 .div1{
+        width: 50%;
+        border-bottom: 1px dotted rgb(202, 200, 200);
+     }
+     .section-4 .div2{
+        width: 50%;
+        border: none;
+     }
+     .section-4 .div3{
+        width: 50%;
+     }
+     .section-4 .div4{
+        width: 50%;
+        border-top: 1px dotted rgb(202, 200, 200);
+     }
+     .section-3 .contant{
+        flex-direction: column;        
+            }
+            .section-3 .contant .left{
+                width: 90%;
+                text-align: center;
+                
+            }
+            .section-3 .contant .right{
+                width: 90%;
+            }
+            
+            .section-2 .shadow {
+                font-size: 50px;
+                text-align: center;
+            }
+             
+            
+               .section-6{
+                flex-direction: column;
+               }
+               .section-6 .div1 ,.section-6 .div2 ,.section-6 .div3 ,.section-6 .div4 , .section-6 .div5 , .section-6 .div6{
+                width: 100%;
+               }
+               .section-8{
+                flex-direction: column;
+               }
+               .section-8 .div3, .section-8 .div4, .section-8 .div5, .section-8 .div6 ,.section-8
+.div7, .section-8 .div8{
+    width: 90%;
+}
+.section-8 .div2{
+    display: none;
+}
+.section-9 .div1,.section-9 .div2, .section-9 .div3, .section-9 .div4, .section-9 .div5, .section-9 .div6{
+    width: 90%;;
+}
+.section-9 .skills{
+    flex-direction: column;
+}
+.section-11 .menu ul{
+    width: 90%;
+}
+.section-11 .menu li{
+    width: 30%;                   
+ }
+ 
+ .section-12 .div1 ,.section-12 .div2 ,.section-12 .div3{
+    width: 90%;
+} 
+ 
+.section-12 .photos img{
+    width: 90%;
+}
+.section-3 .left h2{
+    font-size: 1.6rem;
+}
+ 
+.client .content {  width: 100%;
+    flex-direction: column;
+    margin-left:60px ;
+}
+
+.client-content-left,
+.client-content-right {
+    width: 80%;
+    margin: 10px;
+}
+.final-content{
+    flex-direction: column-reverse;
+    padding-left: 30px;
+}
+.final-content .final-left{
+    width: 90%;
+    margin: 30px ;
+    text-align: center;
+}
+.final-content .final-right{
+    width: 90%;
+    margin: 0px 50px ;
+    /* justify-content: center; */
+}
+.final-input input{
+    width: 90%;
+}
+footer .cont{
+    flex-direction: column;
+    margin: 20px 5px;
+    text-align: center;
+}
+footer .footer-right{
+    width: 100%;
+    margin-top: 30px;
+    justify-content: center;
+}
+.footer-left{
+    width: 100%;
+    margin-left: 0px;
+    
+}
+.section-3 .left h2{
+    font-size: 1.3rem;
+ }
+
+}
+ @media screen and (max-width:499px)  {
+    nav{
+        display: block;
+    }
+    .nav-menu ul{
+        display: block;
+    }
+    .nav-menu{
+        background-color: rgb(15, 15, 24,0.7);
+    }
+    .nav-menu ul li{
+        padding: 10px 0px;
+        padding-left: 50px;
+    }
+    .section-1 .contant h1{
+        font-size: 25px;
+         
+     }
+     .section-4{
+        flex-wrap: wrap;
+        
+     }
+     .section-4 .div1{
+        width: 50%;
+        border-bottom: 1px dotted rgb(202, 200, 200);
+     }
+     .section-4 .div2{
+        width: 50%;
+        border: none;
+     }
+     .section-4 .div3{
+        width: 50%;
+     }
+     .section-4 .div4{
+        width: 50%;
+        border-top: 1px dotted rgb(202, 200, 200);
+     }
+     .section-3 .contant{
+        flex-direction: column;        
+            }
+            .section-3 .contant .left{
+                width: 90%;
+                text-align: center;
+                
+            }
+            .section-3 .contant .right{
+                width: 90%;
+            }
+                    
+   nav .nav-menu{
+    display: none;
+   }
+   .section-6{
+    flex-direction: column;
+   }
+   .section-6 .div1 ,.section-6 .div2 ,.section-6 .div3 ,.section-6 .div4 , .section-6 .div5 , .section-6 .div6{
+    width: 100%;
+   }
+   .section-8{
+    flex-direction: column;
+   }
+   .section-8 .div3, .section-8 .div4, .section-8 .div5, .section-8 .div6 ,.section-8
+.div7, .section-8 .div8{
+width: 90%;
+}
+.section-8 .div2{
+display: none;
+}
+.section-12 .div1 ,.section-12 .div2 ,.section-12 .div3{
+    width: 90%;
+}
+.section-12 .photos img{
+    width: 90%;
+}
+.section-3 .left h2{
+    font-size: 1rem;
+}
+ 
+.client .content {  width: 100%;
+    flex-direction: column;
+    margin-left:30px ;
+}
+
+.client-content-left,
+.client-content-right {
+    width: 96%;
+    margin: 10px;
+}
+.final-content{
+    flex-direction: column-reverse;
+}
+.final-content .final-left{
+    width: 90%;
+    margin: 30px ;
+    text-align: center;
+}
+.final-content .final-right{
+    width: 90%;
+    margin: 0px 50px ;
+}
+.final-input input{
+    width: 90%;
+}
+footer .cont{
+    flex-direction: column;
+    margin: 50px 5px;
+    text-align: center;
+    justify-content: center;
+}
+footer .footer-right{
+    width: 100%;
+    margin-top: 10px;
+    justify-content: center;
+}
+.footer-left{
+    width: 100%;
+    margin-left: 0px;
+    
+}
+.section-3 .left h2{
+    font-size: 1.2rem;
+ }
+ }
